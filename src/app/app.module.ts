@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { ProductsComponent } from './components/products/products.component';
 import { FormsModule } from '@angular/forms';
+import { CustombindingComponent } from './components/explorecustomang/custombinding/custombinding.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     HeaderComponent,
     OrdersComponent,
-    ProductsComponent
+    ProductsComponent,
+    CustombindingComponent
   ],
   imports: [
     BrowserModule,
